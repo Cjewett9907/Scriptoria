@@ -43,7 +43,7 @@
 .button-container{
     position: absolute;
     width: 100%;
-    bottom: -20px;
+    bottom: -95px;
     left: 0;
     margin: 0 auto;
 }
@@ -168,8 +168,10 @@
 }
 
 .index-item-copy{
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  // // margin-top: 10px;
+  // margin-bottom: 10px;
+  
 }
 
 .show-headings{
@@ -180,17 +182,20 @@
 .index-headings{
   font-weight: bold;
   text-decoration: underline;
-  font-size: 36px;
+  font-size: 24px;
+  
 
 }
 
 .book-index-item{
 
-  width: 175px;
+  width: 250px;
   height: 350px;
   // background-color: red;
   position: relative;
   // border: 1px solid green;
+  display: flex;
+  flex-direction: column;
 
 }
 

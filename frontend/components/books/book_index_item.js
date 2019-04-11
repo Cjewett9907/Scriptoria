@@ -58,14 +58,14 @@ class IndexItem extends React.Component {
 
           <img className="index-image" onClick={this.handleClick} src={image_url}/>
 
-          <br/>
+          {/* <br/> */}
 
           <span className="index-headings"></span>
 
           <span className="index-item-copy">{title}</span>
 
           <div className="button-container">
-            <br/>
+            {/* <br/> */}
             {actionButton}
           </div>
 
