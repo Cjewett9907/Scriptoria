@@ -60,7 +60,7 @@ class IndexItem extends React.Component {
 
           {/* <br/> */}
 
-          <span className="index-headings"></span>
+          {/* <span className="index-headings"></span> */}
 
           <span className="index-item-copy">{title}</span>
 
