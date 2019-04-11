@@ -48,8 +48,8 @@ return(
         </section>
 
         <section className="header-searchbar-container">
-          <input className="header-searchbar" type="text" size="25" />
-          <button className="submit-button-a" value="Search" >Search</button>
+          {/* <input className="header-searchbar" type="text" size="25" /> */}
+          {/* <button className="submit-button-a" value="Search" >Search</button> */}
         </section>
           {this.loginButtons()}
 
