@@ -70,7 +70,7 @@ class ReviewsForm extends React.Component {
     // console.log(this.props)
     return (
         <form onSubmit={this.handleSubmit}>
-          <h1> enter your comment </h1>
+          <h1> enter your review </h1>
             {/* <br/>
             <ul>
               <li>{this.state.body}</li>

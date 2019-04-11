@@ -60,6 +60,12 @@ class BookShow extends React.Component{
                 <li className="show-image-container" onClick={this.handlePicClick}>
                   <img className="show-image" src={this.props.book.image_url} />
                 </li>
+
+                {/* <div className="img-wrapper" onClick={this.handlePicClick}>
+                      <span>Return to Main Menu</span>
+                  </div> */}
+
+
                 <br/>
                 {/* <li>{this.props.book.read_status}</li> */}
                 <select className="drop-down" name="Read Status" value="Read Status"
@@ -87,7 +93,7 @@ class BookShow extends React.Component{
               </div>
 
                 <section className="main-bookcase-show">
-                    <div className="img-wrapper" onClick={this.handleLinkedClick}>
+                  <div className="img-wrapper" onClick={this.handleLinkedClick}>
                       <img src="https://lh3.googleusercontent.com/Kwvr4DTgxUhCQZb7MLBYIrOHR1gGRYEueekaEBzYqO_In1pcNP9R_O5DuGenJBiC4Bdi66nyz7apHCJ1a3xZc9XLTG1ZowVOCKZugPIMFusfWHsYEsxdrKLOhmLbPBEorA51SwCGr_JK5HUK1nCOJ8LvQQUGfhjBqTB4UsjTJq_e2swAwdQh_DwJ__Z2gN9XOliF4iqo-eOi-gxdCYCEiuab2IEckoVghWtUsLhLg55plFYTfq_1BoXuRb1EY7YUIG0vn3BsgDg57Fh16GnPRFVPvqpKiN8oJf1VzOsLq2FEw8EJGctx7UiBYNFaOM1v23ksyUuqxv4oRF3xGkBDoVToOqNyRpX-e2y7x0Ub6uC5fUeMIKifUIa3aIz7Z0wfBE9u1y6RT0ycaLA8GhRuVH4KjOWCUeq8BaNjMJ2sgMQnz0Ti-2wgwL7sdz84pekfYC-DFENu0ai8I4DiIYEhY3pt8wQi1u0zjBeLhpMpmb_ZPbN6BSKbJaEQTgryODr3ONTEJYip6yvB_YYcZXR4MxH8Zb_l8tz8JAmRz-SgwGKWIAIzM95Y_mmcb4lHaNMEpBj9wjhTgIbCZ36RfGJRfpF-rsHsOZQ0nUNH3nw5iKnJwnW-yKLUr-RStlzC5Wx0UGt2jRpR--fhK0kf9C96vIJA=w308-h537-no"></img>
                   </div>
               </section>

@@ -46,10 +46,12 @@ class IndexItem extends React.Component {
       actionButton = <button className="button-shelf-action" onClick={this.handleClickCollectionsAdd}>Add to Bookshelf</button>
     }
 
+    console.log(this.props.currentUser.id === null)
     // resets the buttons to default if no currentUser
-    // if (!this.props.currentUser) {
+    if (this.props.currentUser.id === null) {
+      actionButton = <button className="button-shelf-del" onClick={this.handleClickCollectionsAdd}>Log In to Continue</button>
     //   actionButton = <button className="button-shelf-action" onClick={this.handleClickCollectionsAdd}>Add to Bookshelf</button>
-    // }
+    }
 
 
     return (
