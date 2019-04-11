@@ -1,0 +1,91 @@
+// Place all the styles related to the api/Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  // background-color: white;
+  z-index: 10;
+}
+
+.modal-child {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  background-color: white;
+  background-image: url(https://prodigalthought.files.wordpress.com/2015/12/book-stack.jpg);
+  background-size: cover;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px double gold;
+}
+
+
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  // justify-content: flex-start;
+  // align-content: center;
+  color: white;
+  margin: 20px;
+  // margin-top: 100px;
+  // margin-left: 100px;
+
+
+}
+
+.modal-element{
+  margin: 10px;
+  text-shadow: 1px 1px 2px black;
+
+}
+
+.pic-wrapper-modal{
+  height: 75%;
+  weight: 75%;
+  background-color: white;
+  z-index: 4;
+
+ border: 1px solid gold;
+ border-radius: 4px;
+}
+
+.sign-in-text{
+  margin-left: 5px;
+}
+
+.sign-in-text-title{
+  margin: 20px;
+  font-size: 30px;
+  font-family: cursive;
+  text-shadow: 1px 1px 2px black;
+}
+
+.error-rendering{
+  font-size: 24px;
+  color: red;
+  list-style-type: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+.section-button{
+  margin-left: 10px;
+
+}
+
+.welcome-user{
+  // text-align:justify;
+  font-size: 24px;
+  font-style: cursive;
+  margin-right: 10px;
+  // padding-right: 20px;
+
+}

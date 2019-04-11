@@ -1,0 +1,78 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.splash-title{
+    font-size: 60px;
+    font-family: cursive;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+.splash-wrapper{
+  position: relative;
+  margin: 0 auto;
+  height: 800px;
+  width: 100%;
+
+  background-image: url(https://images.homedepot-static.com/productImages/f5e292f7-35e6-498f-9430-1853161581e2/svn/kenneth-james-wallpaper-2618-21347sam-64_1000.jpg);
+  background-size: cover;
+}
+
+.splash-content{
+  position: absolute;
+  width: 1000px;
+
+  left: 0;
+  right: 0;
+  top: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.splash-image{
+  width: 1000px;
+  height: 500px;
+  border-radius: 500px / 250px;
+  border: 5px ridge gold;
+}
+
+
+
+.main-splash{
+  background-color: antiquewhite;
+  font-family: cursive;
+  width: 550px;
+  height: 100px;
+  font-size: 60px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px black;
+
+  margin: 0 auto;
+}
+
+
+@keyframes example {
+  from {height: 80px;}
+  to {height: 500px; background-color: blue;}
+}
+
+.happy_box {
+  width: 100px;
+  height: 80px;
+  background-position: right;
+
+  // background: red;
+  z-index: -1;
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}

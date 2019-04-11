@@ -1,0 +1,220 @@
+// Place all the styles related to the api/books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.first-ad{
+  height: 66px;
+  width: 950px;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  background-image: url(https://s0.2mdn.net/4488635/housewithaclockinitswalls_bd_static_970x66_pre.jpg);
+
+}
+
+.background-shelf{
+  width: 800px;
+  height: 250px;
+  z-index: -1;
+  position:absolute;
+  left: 50px;
+  top: 180px;
+}
+
+
+
+
+.show-image{
+  max-height: 270px;
+  max-width: 150px;
+  image-orientation: cover;
+}
+
+.book-detail-container{
+  // width: 25%;
+  // border: 1px solid lightgrey;
+  margin: 15px;
+  margin-left: 5px;
+  margin-right: 8px;
+  height: 100%;
+  // background-color: #F4F1E9;
+}
+
+
+.button-container{
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+    margin: 0 auto;
+}
+
+.button-shelf-action{
+
+  background-color: #409D69;
+  height: 35px;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+}
+.button-shelf-action:hover{
+  background-color: #74d3ab;
+}
+
+.button-shelf-del{
+  background-color: #F40017;
+  height: 35px;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.button-shelf-del:hover{
+  background-color: #ed5e6a;
+}
+
+.drop-down-rating{
+  background-color: #409D69;
+  -webkit-font-smoothing: antialiased;
+  height: 28px;
+  width: 50%;
+  padding: 6px 0 6px 8px;
+  font-weight: bold;
+  color: #fff;
+  length: 200px;
+  line-height: 1.25;
+  // margin-left: 10%
+}
+.drop-down-rating:hover{
+  background-color: #74d3ab;
+
+}
+.drop-down{
+  background-color: #409D69;
+  -webkit-font-smoothing: antialiased;
+  height: 28px;
+  width: 90%;
+  padding: 6px 0 6px 8px;
+  font-weight: bold;
+  color: #fff;
+  length: 200px;
+  line-height: 1.25;
+  // margin-left: 10%
+}
+.drop-down:hover{
+  background-color: #74d3ab;
+
+}
+
+.show-image-container{
+  // width: 70%;
+  // margin: 16px;
+  // margin-left: 8px;
+  // border: 1 px solid lightgrey;
+  // background-color: #F4F1E9;
+  // border: 1px solid lightgrey;
+  list-style-type: none;
+}
+.main-bookcase-show{
+  width: 45%;
+  margin: 16px;
+  margin-left: 8px;
+  border: 1 px solid lightgrey;
+  background-color: #F4F1E9;
+  border: 1px solid lightgrey;
+}
+
+
+.book-list{
+  // position: relative;
+  list-style-type: none;
+  font-family: "Merriweather", "Georgia", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #333333;
+}
+.book-list-title{
+  font-family: serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+
+
+}
+
+.ad_right{
+  height: 300px;
+  width: 400px;
+  background-color: blue;
+  background-image: image("../../../app/assets/images/ads_show_right.png");
+  font-size: 64px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.single-book-show{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+
+
+
+}
+
+.index-item-copy{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.show-headings{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.index-headings{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 36px;
+
+}
+
+.book-index-item{
+
+  width: 175px;
+  height: 350px;
+  // background-color: red;
+  position: relative;
+  // border: 1px solid green;
+
+}
+
+.index-item-info{
+  width: 150px;
+  height: 250px;
+  position: relative;
+  // background-color: blue;
+}
+
+.index-image{
+  width: 150px;
+  height: 266px;
+  border: 1px solid gold;
+  // image-orientation: cover
+}
+.index-image:hover{
+  width: 155px;
+  height: 275px;
+  border: 1px solid gold;
+  // image-orientation: cover
+}
+
+
+.sidebar{
+  width: 550px;
+}

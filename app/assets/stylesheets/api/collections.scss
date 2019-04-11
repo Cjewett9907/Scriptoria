@@ -1,0 +1,89 @@
+// Place all the styles related to the api/collections controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-sidebar{
+  width: 15%;
+  border: 1px solid lightgrey;
+  margin: 15px;
+  margin-left: 5px;
+  margin-right: 8px;
+  background-color: #F4F1E9;
+  // position: fixed;
+  // display: flex;
+  // justify-content: center;
+
+}
+
+.thumbnail-title{
+  width: 100%;
+  margin: 2px;
+  // background-color: red;
+}
+
+
+
+.thumbmail-index-wrapper{
+  // display: flex;
+  // flex-wrap: wrap;
+  // flex-direction: row;
+  background-color: white;
+  position: fixed;
+  width: 14.6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  // background-color: purple;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+
+
+.book-thumbnail-item {
+  height: 70px;
+  width: 55px;
+}
+
+
+.thumbnail-image{
+  height: 60px;
+  width: 47px;
+  border: 1px solid gold;
+}
+
+.thumbnail-image:hover {
+  height: 65px;
+  width: 52px;
+}
+
+
+.thumbnail-item-info{
+  height: 70px;
+  width: 55px;
+}
+
+
+
+.index-headings{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 36px;
+
+}
+
+.review-post{
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid lightgrey;
+
+}
+
+.review-textbox{
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
