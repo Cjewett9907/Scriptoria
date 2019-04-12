@@ -13,13 +13,13 @@ export const indexBook = () => dispatch =>(
 
 export const showBook = (bookId) => dispatch =>(
   BookAPIUtil.showBook(bookId)
-  .then( (payload) => dispatch({ type: RECEIVE_BOOK, payload: payload}), // added payload
+  .then( (payload) => dispatch({ type: RECEIVE_BOOK,  payload: {reviews: {}, ...payload} } ), // added payload
   err => dispatch({ type: RECEIVE_BOOK_ERRORS, errors: err.responseJSON})
 ));
 
 export const updateBook = (BookId) => dispatch =>(
   BookAPIUtil.updateBook(BookId)
-  .then( (payload) => dispatch({ type: RECEIVE_BOOK, payload: payload}), // added payload
+  .then( (payload) => dispatch({ type: RECEIVE_BOOK, payload: {reviews: {}, ...payload} } ), // added payload
   err => dispatch({ type: RECEIVE_BOOK_ERRORS, errors: err.responseJSON})
 ));
 

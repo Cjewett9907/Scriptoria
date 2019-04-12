@@ -13,7 +13,7 @@ class CollectionIndex extends React.Component{
 
       <section className="main-sidebar">
 
-            <div className="thumbmail-index-wrapper">
+            <div className="thumbnail-index-wrapper">
               <div className="thumbnail-title">
 
                 <h1>Your bookshelf:</h1>

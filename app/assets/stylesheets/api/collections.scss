@@ -8,8 +8,10 @@
   margin-left: 5px;
   margin-right: 8px;
   background-color: #F4F1E9;
-  // position: fixed;
-  // display: flex;
+  
+  position: relative;
+  display: flex;
+  align-items: flex-start;
   // justify-content: center;
 
 }
@@ -22,13 +24,18 @@
 
 
 
-.thumbmail-index-wrapper{
+.thumbnail-index-wrapper{
   // display: flex;
   // flex-wrap: wrap;
   // flex-direction: row;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 95px;
+  // position: fixed;
   background-color: white;
-  position: fixed;
-  width: 14.6%;
+  
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
