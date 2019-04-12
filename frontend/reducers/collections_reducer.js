@@ -1,5 +1,8 @@
 
 import merge from 'lodash/merge';
+import {LOGOUT_CURRENT_USER} from '../actions/session_actions';
+
+
 import {
   RECEIVE_BOOKS,
   RECEIVE_BOOK,
@@ -33,6 +36,8 @@ const collectionsReducer = (collectionState = {}, action) => {
       //   // return newBook
       //
       //
+    case LOGOUT_CURRENT_USER:
+      return {}
 
 
     default:
