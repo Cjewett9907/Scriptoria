@@ -22,7 +22,7 @@ export const updateBook = (BookId) => dispatch =>(
   .then( (payload) => dispatch({ type: RECEIVE_BOOK, payload: {reviews: {}, ...payload} } ), // added payload
   err => dispatch({ type: RECEIVE_BOOK_ERRORS, errors: err.responseJSON})
 ));
-
+// changed the payload to add an empty review
 
 export const receiveReview = ({ review, average_rating, author }) => ({
   type: RECEIVE_REVIEW,
