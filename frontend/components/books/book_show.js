@@ -57,13 +57,13 @@ class BookShow extends React.Component{
 
               <div className="book-detail-container" >
 
-                <li className="show-image-container" onClick={this.handlePicClick}>
+                <li className="show-image-container" >
                   <img className="show-image" src={this.props.book.image_url} />
                 </li>
 
-                {/* <div className="img-wrapper" onClick={this.handlePicClick}>
-                      <span>Return to Main Menu</span>
-                  </div> */}
+                <button className="button-shelf-action" onClick={this.handlePicClick}>
+                      Return to Main Menu
+                  </button>
 
 
                 <br/>
