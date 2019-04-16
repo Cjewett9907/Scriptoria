@@ -2,7 +2,6 @@
 import merge from 'lodash/merge';
 import {LOGOUT_CURRENT_USER} from '../actions/session_actions';
 
-
 import {
   RECEIVE_BOOKS,
   RECEIVE_BOOK,

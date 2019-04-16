@@ -15,9 +15,6 @@ const bookReducer = (state = {}, action) => {
       return Object.assign({}, state, action.payload.books)
     case RECEIVE_BOOK:
       // return { book: action.book};
-
-
-
       const newBook = { [action.payload.book.id]: action.payload.book };
       return Object.assign({}, state, newBook);
       // const newBook = Object.assign({}, state, action.book)

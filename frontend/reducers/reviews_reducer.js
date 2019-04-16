@@ -11,7 +11,6 @@ import {
   UPDATE_REVIEW
 } from '../actions/review_actions';
 
-
 const reviewsReducer = (reviewState = {}, action) => {
   Object.freeze(reviewState);
   switch(action.type) {

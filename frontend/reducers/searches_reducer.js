@@ -1,5 +1,3 @@
-
-
 import { UPDATE_SEARCH } from '../actions/search_actions';
 
 const defaultFilters = Object.freeze({

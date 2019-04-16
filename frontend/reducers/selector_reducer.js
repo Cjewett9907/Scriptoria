@@ -17,17 +17,12 @@ export const asArray = ({ books }) => (
   Object.keys(books).map(key => books[key])
 );
 
-
-
 // albums container
 // export const selectAlbumArtists = (state, albumId) => {
 //   return Object.values(state.entities.artistAlbums)
 //   .filter(artistAlbum => artistAlbumn.album_id === albumId)
 //   .map(artistAlbumn => state.entities.artists[artistAlbum.artist_id])
 // }
-//
-//
-//
 // export const selectBench = ({ benches }, benchId) => {
 //   return benches[benchId] || { reviewIds: [] };
 // };
