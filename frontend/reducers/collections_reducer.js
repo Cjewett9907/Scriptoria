@@ -34,11 +34,9 @@ const collectionsReducer = (collectionState = {}, action) => {
       //   return Object.assign({}, state, newBook);
       //   // const newBook = Object.assign({}, state, action.book)
       //   // return newBook
-      //
-      //
+
     case LOGOUT_CURRENT_USER:
       return {}
-
 
     default:
       return collectionState;
