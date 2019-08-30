@@ -1,5 +1,5 @@
 class Api::CollectionsController < ApplicationController
-
+  
   def create
     @collection = Collection.new(collection_params)
 

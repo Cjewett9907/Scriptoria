@@ -198,7 +198,7 @@ Book.create(
   description: 'All hope abandon, ye who enter here.',
   author: 'Dante Alighieri',
   read_status: 'Not Read',
-  image_url: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/45d67b27390237.5605089776148.png'
+  image_url: 'https://images3.penguinrandomhouse.com/cover/9781101608388'
 )
 Book.create(
   title: 'Gullivers Travels',

@@ -35,24 +35,30 @@ class IndexItem extends React.Component {
     // this.props
   }
 
+  handleClickLogin(){
+    console.log('got there')
+    this.props.openModal('got there')
+  }
+
   render() {
 
     const { title, description, read_status, image_url } = this.props.book;
-    let actionButton = {}
-
+    let actionButton = ""
+    
     if (this.props.isInBookshelf){
       actionButton = <button className="button-shelf-del" onClick={this.handleClickCollectionsRemove}>Remove from Bookshelf</button>
-    } else {
+    } else if (!this.props.isInBookshelf && this.props.currentUser.id !== null){
       actionButton = <button className="button-shelf-action" onClick={this.handleClickCollectionsAdd}>Add to Bookshelf</button>
     }
 
-    console.log(this.props.currentUser.id === null)
+
+    // console.log(this.props.currentUser.id)
     // resets the buttons to default if no currentUser
     if (this.props.currentUser.id === null) {
-      actionButton = <button className="button-shelf-del" onClick={this.handleClickCollectionsAdd}>Log In to Continue</button>
+      actionButton = <button className="button-shelf-del" onClick={this.handleClickLogin}>Log In </button>
     //   actionButton = <button className="button-shelf-action" onClick={this.handleClickCollectionsAdd}>Add to Bookshelf</button>
     }
-
+    console.log(actionButton)
 
     return (
       <div className="book-index-item">
